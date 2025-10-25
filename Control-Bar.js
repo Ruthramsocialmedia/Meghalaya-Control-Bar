@@ -3,7 +3,7 @@
   style.textContent = `
   *{margin:0;padding:0;box-sizing:border-box;font-family:"Satoshi",system-ui,sans-serif}
   body{height:100vh;display:flex;justify-content:center;align-items:flex-end}
-  .mobile-nav{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);width:92%;max-width:400px;background:rgba(255,255,255,0.75);backdrop-filter:blur(22px)saturate(180%);border-radius:28px;display:flex;justify-content:space-around;align-items:center;padding:14px 14px;border:1px solid rgba(255,255,255,0.5);box-shadow:0 12px 35px rgba(0,0,0,0.12);transition:all 0.4s ease;animation:fadeInUp 0.8s ease-out}
+  .mobile-nav{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);width:92%;max-width:400px;background:rgba(255,255,255,0.75);backdrop-filter:blur(22px)saturate(180%);border-radius:28px;display:flex;justify-content:space-around;align-items:center;padding:14px 14px;border:1px solid rgba(255,255,255,0.5);box-shadow:0 12px 35px rgba(0,0,0,0.12);transition:all 0.4s ease;animation:fadeInUp 0.8s ease-out;z-index:9999}
   @keyframes fadeInUp{0%{transform:translate(-50%,40px);opacity:0}100%{transform:translate(-50%,0);opacity:1}}
   .nav-item{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;color:rgba(0,0,0,0.6);text-decoration:none;font-size:13px;font-weight:500;gap:6px;border-radius:16px;position:relative;transition:all 0.3s ease;padding:10px 0}
   .nav-item i{font-size:1.6rem;transition:all 0.3s ease}
